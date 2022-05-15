@@ -1,0 +1,116 @@
+body {
+  background-color: #15202b !important;
+}
+.pageContainer {
+  margin: 1rem auto;
+}
+.formContainer {
+  border-radius: 6px;
+  border: 2px solid white;
+  width: 600px;
+  height: 180px;
+}
+.tweetForm {
+  margin: 1rem;
+  height: 82px;
+  width: 464px;
+  text-align: top;
+  border: none;
+  background-color: #15202b;
+  color: white;
+  resize: none;
+}
+textarea,
+textarea:focus {
+  border: none;
+  outline: none;
+  resize: none;
+}
+.tweetList {
+  display: grid;
+  width: 600px;
+  height: 100px;
+  margin: 0.6rem auto;
+}
+.tweetBox {
+  background-color: #343a40;
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-wrap: anywhere;
+}
+.noteHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #6c757d;
+}
+.tweetControl {
+  padding-top: 1rem;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.errorContainer {
+  background-color: #f8d7da;
+  color: #721c24;
+  border-radius: 4px;
+  padding: 0 1rem;
+  margin-left: 1rem;
+  margin-top: 10px;
+  height: fit-content;
+  width: fit-content;
+}
+
+
+.navControl {
+  background-color: #343a40 !important;
+  border-radius: 5px !important;
+}
+.navLink:hover {
+  color: white !important;
+}
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .nav-link.active {
+  color: rgb(255 255 255 / 90%) !important;
+}
+
+.inputData {
+  font-family: inherit;
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid white;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.inputControl {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  color: white;
+}
+
+.test {
+  border-radius: 5px;
+}
+
+.uplaod {
+  justify-content: space-around;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.avatarControl {
+  border: 1px solid gold;
+  padding: 3px;
+  vertical-align: middle;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
