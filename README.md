@@ -1,10 +1,10 @@
-# Getting Started with Create React App
+# Demo Repository For Working Git
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## About
 
-In the project directory, you can run:
+In this app you will see a demo repository
 
 ### `npm start`
 
